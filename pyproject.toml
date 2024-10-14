@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "forma-bot"
+version = "0.1.0"
+description = "Check from for Users bot"
+authors = ["VladGavrikov668 <vle.tos@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiogram = "^2.25.1"
+aioredis = "^2.0.1"
+alembic = "^1.13.3"
+asyncpg = "^0.29.0"
+sqlalchemy = "^2.0.35"
+vertica-python = "^1.4.0"
+python-dotenv = "^1.0.1"
+redis = "^5.1.1"
+pydantic = "^2.9.2"
+pydantic-settings = "^2.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
